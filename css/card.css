@@ -1,0 +1,63 @@
+.card {
+    background-color: var(--white);
+    inline-size: 22.5rem;
+    box-sizing: border-box;
+    padding: 1rem;
+    border: 1px solid var(--black);
+    border-radius: 1rem;
+    box-shadow: 10px 10px 0 var(--black);
+}
+.card__header {
+    border-radius: 1rem;
+    overflow: hidden;
+}
+
+.card__image {
+    inline-size: 100%;
+    block-size: auto;
+    display: block;
+}
+
+.card__status {
+    display: inline-block;
+    background-color: var(--yellow);
+    font-weight: 800;
+    padding: .5rem 1rem;
+    margin: 1.8rem 0 1.3rem;
+    border-radius: .5rem;
+}
+
+.card__date {
+    margin: 0;
+    font-size: .9rem;
+}
+
+.card__link {
+    margin: 1.3rem 0;
+    text-decoration: none;
+    color: var(--black);
+}
+
+.card__link:hover {
+    color: var(--yellow);
+}
+
+.card__description {
+    color: var(--grey);
+    line-height: 1.5rem;
+}
+
+.card__footer {
+    display: flex;
+    gap: .8rem;
+    align-items: center;
+}
+
+.card__image_author {
+    inline-size: 2rem;
+    aspect-ratio: 1;
+}
+
+.card__name_author {
+    font-weight: 800;
+}
