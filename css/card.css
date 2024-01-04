@@ -42,6 +42,10 @@
     color: var(--yellow);
 }
 
+.card__link:focus {
+    color: var(--grey);
+}
+
 .card__description {
     color: var(--grey);
     line-height: 1.5rem;

@@ -14,10 +14,15 @@ body {
 }
 
 .page {
+    background-color: var(--yellow);
+    overflow: hidden;
+}
+
+.container {
     inline-size: 100vw;
     block-size: 100vh;
-    background-color: var(--yellow);
     display: flex;
     align-items: center;
     justify-content: center;
+
 }
